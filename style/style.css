@@ -112,3 +112,84 @@ nav ul li a {
 }
 
 /* banner-end-here */
+
+/* why-web-development-starts */
+.why-web-development .container{
+    min-height: 1395px;
+    margin-top: 74px;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.why-web-dev-header h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.why-web-dev-header p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.why-web-card-container {
+    max-width: 946px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.why-web-dev-card {
+    width: 100%;
+    min-height: 336px;
+    margin: 0 auto;
+    padding: 48px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.card-ltr {
+    background-image: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.card-rtl {
+    background-image: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.card-text h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.card-text p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.card-text a button {
+    color: rgb(13, 19, 33);
+    background: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+    width: 150px;
+    height: 48px;
+    cursor: pointer;
+}
+.card-text a button:hover {
+    background: rgba(13, 19, 33, 0.7);
+    color: white;
+    transition: all 0.5s;
+}
+.why-web-dev-card img {
+    height: 240px;
+    width: 240px;
+}
+/* why-web-development-ends */
