@@ -193,3 +193,44 @@ nav ul li a {
     width: 240px;
 }
 /* why-web-development-ends */
+
+/* Inspiration section starts */
+.inspiration-section .container{
+    min-height: 775px;
+    margin-top: 88px;
+}
+.inspiration-heading {
+    max-width: 852px;
+    margin: 0 auto;
+}
+.inspiration-heading h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.inspiration-heading p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.inspiration-video {
+    width: 100%;
+    min-height: 614px;
+    padding: 32px;
+    margin-top: 48px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+.inspiration-video iframe {
+    border-radius: 16px;
+    width: 100%;
+    min-height: 550px;
+}
+/* Inspiration section ends */
