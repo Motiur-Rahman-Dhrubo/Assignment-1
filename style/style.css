@@ -203,13 +203,13 @@ nav ul li a {
     max-width: 852px;
     margin: 0 auto;
 }
-.inspiration-heading h3 {
-    color: rgba(13, 19, 33, 0.7);
-    font-size: 24px;
-    font-weight: 700;
+.inspiration-heading h2 {
     line-height: 36px;
     margin-bottom: 24px;
     text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
 }
 .inspiration-heading p {
     color: rgb(13, 19, 33);
@@ -234,3 +234,76 @@ nav ul li a {
     min-height: 550px;
 }
 /* Inspiration section ends */
+
+/* Current target Section starts */
+.current-target-section .container{
+    min-height: 460px;
+    margin-top: 88px;
+}
+.current-target-heading {
+    max-width: 852px;
+    margin: 0 auto;
+}
+.current-target-heading h2 {
+    line-height: 36px;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.current-target-heading p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.current-target-card-container {
+    min-height: 299px;
+    width: 100%;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.current-target-card {
+    max-width: 364px;
+    min-height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.current-target-card img {
+    height: 56px;
+    width: 56px;
+    margin-bottom: 24px;
+}
+.current-target-card h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.current-target-card p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.current-target-card a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.red-card {
+    background: rgba(255, 76, 30, 0.05);
+}
+.blue-card {
+    background: rgba(0, 76, 232, 0.05);
+}
+.yellow-card {
+    background: rgba(255, 223, 0, 0.05);
+}
+/* Current target Section ends */
